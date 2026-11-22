@@ -1,0 +1,228 @@
+{
+  "seed": 20261112,
+  "trials": 2000,
+  "experiment_a": [
+    {
+      "n": 300,
+      "m": 65536,
+      "trials": 2000,
+      "collision_trials": 973,
+      "observed_probability": 0.4865,
+      "theoretical_probability": 0.49611216392770907,
+      "observed_mean_pairs": 0.65,
+      "theoretical_mean_pairs": 0.684356689453125
+    },
+    {
+      "n": 400,
+      "m": 65536,
+      "trials": 2000,
+      "collision_trials": 1395,
+      "observed_probability": 0.6975,
+      "theoretical_probability": 0.7048091425867247,
+      "observed_mean_pairs": 1.2085,
+      "theoretical_mean_pairs": 1.2176513671875
+    },
+    {
+      "n": 500,
+      "m": 65536,
+      "trials": 2000,
+      "collision_trials": 1684,
+      "observed_probability": 0.842,
+      "theoretical_probability": 0.8516807963375743,
+      "observed_mean_pairs": 1.852,
+      "theoretical_mean_pairs": 1.903533935546875
+    },
+    {
+      "n": 600,
+      "m": 65536,
+      "trials": 2000,
+      "collision_trials": 1880,
+      "observed_probability": 0.94,
+      "theoretical_probability": 0.9360979481178944,
+      "observed_mean_pairs": 2.778,
+      "theoretical_mean_pairs": 2.74200439453125
+    },
+    {
+      "n": 800,
+      "m": 65536,
+      "trials": 2000,
+      "collision_trials": 1982,
+      "observed_probability": 0.991,
+      "theoretical_probability": 0.992528517339767,
+      "observed_mean_pairs": 4.852,
+      "theoretical_mean_pairs": 4.876708984375
+    },
+    {
+      "n": 1000,
+      "m": 65536,
+      "trials": 2000,
+      "collision_trials": 1999,
+      "observed_probability": 0.9995,
+      "theoretical_probability": 0.9995290743136814,
+      "observed_mean_pairs": 7.5605,
+      "theoretical_mean_pairs": 7.62176513671875
+    }
+  ],
+  "experiment_b": [
+    {
+      "dataset": "Sequential",
+      "method": "Modulo",
+      "n": 600,
+      "m": 256,
+      "U": 256,
+      "D": 344,
+      "C": 432,
+      "L": 3
+    },
+    {
+      "dataset": "Sequential",
+      "method": "SHA-256 reduced",
+      "n": 600,
+      "m": 256,
+      "U": 235,
+      "D": 365,
+      "C": 688,
+      "L": 7
+    },
+    {
+      "dataset": "Sequential",
+      "method": "Modulo",
+      "n": 600,
+      "m": 257,
+      "U": 257,
+      "D": 343,
+      "C": 429,
+      "L": 3
+    },
+    {
+      "dataset": "Sequential",
+      "method": "SHA-256 reduced",
+      "n": 600,
+      "m": 257,
+      "U": 235,
+      "D": 365,
+      "C": 654,
+      "L": 7
+    },
+    {
+      "dataset": "Sequential",
+      "method": "Modulo",
+      "n": 600,
+      "m": 512,
+      "U": 512,
+      "D": 88,
+      "C": 88,
+      "L": 2
+    },
+    {
+      "dataset": "Sequential",
+      "method": "SHA-256 reduced",
+      "n": 600,
+      "m": 512,
+      "U": 356,
+      "D": 244,
+      "C": 349,
+      "L": 5
+    },
+    {
+      "dataset": "Sequential",
+      "method": "Modulo",
+      "n": 600,
+      "m": 1024,
+      "U": 600,
+      "D": 0,
+      "C": 0,
+      "L": 1
+    },
+    {
+      "dataset": "Sequential",
+      "method": "SHA-256 reduced",
+      "n": 600,
+      "m": 1024,
+      "U": 453,
+      "D": 147,
+      "C": 180,
+      "L": 5
+    },
+    {
+      "dataset": "Stride 256",
+      "method": "Modulo",
+      "n": 600,
+      "m": 256,
+      "U": 1,
+      "D": 599,
+      "C": 179700,
+      "L": 600
+    },
+    {
+      "dataset": "Stride 256",
+      "method": "SHA-256 reduced",
+      "n": 600,
+      "m": 256,
+      "U": 231,
+      "D": 369,
+      "C": 684,
+      "L": 8
+    },
+    {
+      "dataset": "Stride 256",
+      "method": "Modulo",
+      "n": 600,
+      "m": 257,
+      "U": 257,
+      "D": 343,
+      "C": 429,
+      "L": 3
+    },
+    {
+      "dataset": "Stride 256",
+      "method": "SHA-256 reduced",
+      "n": 600,
+      "m": 257,
+      "U": 237,
+      "D": 363,
+      "C": 698,
+      "L": 8
+    },
+    {
+      "dataset": "Stride 256",
+      "method": "Modulo",
+      "n": 600,
+      "m": 512,
+      "U": 2,
+      "D": 598,
+      "C": 89700,
+      "L": 300
+    },
+    {
+      "dataset": "Stride 256",
+      "method": "SHA-256 reduced",
+      "n": 600,
+      "m": 512,
+      "U": 346,
+      "D": 254,
+      "C": 360,
+      "L": 5
+    },
+    {
+      "dataset": "Stride 256",
+      "method": "Modulo",
+      "n": 600,
+      "m": 1024,
+      "U": 4,
+      "D": 596,
+      "C": 44700,
+      "L": 150
+    },
+    {
+      "dataset": "Stride 256",
+      "method": "SHA-256 reduced",
+      "n": 600,
+      "m": 1024,
+      "U": 450,
+      "D": 150,
+      "C": 183,
+      "L": 4
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+dataset,method,n,m,U,D,C,L
+Sequential,Modulo,600,256,256,344,432,3
+Sequential,SHA-256 reduced,600,256,235,365,688,7
+Sequential,Modulo,600,257,257,343,429,3
+Sequential,SHA-256 reduced,600,257,235,365,654,7
+Sequential,Modulo,600,512,512,88,88,2
+Sequential,SHA-256 reduced,600,512,356,244,349,5
+Sequential,Modulo,600,1024,600,0,0,1
+Sequential,SHA-256 reduced,600,1024,453,147,180,5
+Stride 256,Modulo,600,256,1,599,179700,600
+Stride 256,SHA-256 reduced,600,256,231,369,684,8
+Stride 256,Modulo,600,257,257,343,429,3
+Stride 256,SHA-256 reduced,600,257,237,363,698,8
+Stride 256,Modulo,600,512,2,598,89700,300
+Stride 256,SHA-256 reduced,600,512,346,254,360,5
+Stride 256,Modulo,600,1024,4,596,44700,150
+Stride 256,SHA-256 reduced,600,1024,450,150,183,4
